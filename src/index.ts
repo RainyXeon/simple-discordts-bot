@@ -1,5 +1,5 @@
 import { Client, Message, GatewayIntentBits } from "discord.js";
-import { prefix, token } from "./config.json";
+import { prefix, token } from "../config.json";
 
 const client: Client = new Client({
   intents: [
